@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/rowhillstudios/static/css/main.5f361e03.chunk.css",
+    "main.js": "/rowhillstudios/static/js/main.2c80d43b.chunk.js",
+    "main.js.map": "/rowhillstudios/static/js/main.2c80d43b.chunk.js.map",
+    "runtime-main.js": "/rowhillstudios/static/js/runtime-main.0feaeda5.js",
+    "runtime-main.js.map": "/rowhillstudios/static/js/runtime-main.0feaeda5.js.map",
+    "static/js/2.27013a4a.chunk.js": "/rowhillstudios/static/js/2.27013a4a.chunk.js",
+    "static/js/2.27013a4a.chunk.js.map": "/rowhillstudios/static/js/2.27013a4a.chunk.js.map",
+    "index.html": "/rowhillstudios/index.html",
+    "precache-manifest.9d75da7e5ef42cc1ee8a99408c840dc6.js": "/rowhillstudios/precache-manifest.9d75da7e5ef42cc1ee8a99408c840dc6.js",
+    "service-worker.js": "/rowhillstudios/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/rowhillstudios/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.27013a4a.chunk.js.LICENSE.txt": "/rowhillstudios/static/js/2.27013a4a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0feaeda5.js",
+    "static/js/2.27013a4a.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.2c80d43b.chunk.js"
+  ]
+}

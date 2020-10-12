@@ -2,7 +2,7 @@
   "name": "rowhillstudios",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "https://rowhillstudios.github.io/rowhillstudios/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

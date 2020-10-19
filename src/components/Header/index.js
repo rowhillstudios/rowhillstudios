@@ -6,7 +6,9 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import Icon from '@material-ui/core/Icon';
+import Logo from '../../images/Logo.png';
+import HomePage from '../../containers/HomePage/index';
+import Contactus from '../../containers/ContactUs/index';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -58,6 +60,14 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     backgroundColor: theme.palette.background.paper,
   },
+  tab: {
+    backgroundColor: '#2e303d',
+  },
+  logo: {
+    width: '10%',
+    height: '10%',
+    borderRadius: '100px',
+  },
 }));
 
 export default function NavTabs() {
@@ -70,13 +80,15 @@ export default function NavTabs() {
 
   return (
     <div className={classes.root}>
-      <Icon>LOGO</Icon>
+      <img src={Logo} className={classes.logo} alt="rowhillstudio" />
+
       <AppBar position="static">
         <Tabs
           variant="fullWidth"
           value={value}
           onChange={handleChange}
           aria-label="nav tabs example"
+          className={classes.tab}
         >
           <LinkTab label="Home Page" href="/homepage" {...a11yProps(0)} />
           <LinkTab label="Services" href="/services" {...a11yProps(1)} />
@@ -86,8 +98,9 @@ export default function NavTabs() {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        Home Page
+        <HomePage />{' '}
       </TabPanel>
+
       <TabPanel value={value} index={1}>
         Services
       </TabPanel>
@@ -98,7 +111,7 @@ export default function NavTabs() {
         About Us
       </TabPanel>
       <TabPanel value={value} index={4}>
-        Contact
+        <Contactus />
       </TabPanel>
     </div>
   );

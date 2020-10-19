@@ -1,14 +1,11 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
+import './App.css';
+import Application from './components/Appication/index';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <a className="App-link" target="_blank" rel="noopener noreferrer">
-          RowhillStudios
-        </a>
-      </header>
+      <Application />
     </div>
   );
 }
